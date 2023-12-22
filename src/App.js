@@ -9,6 +9,7 @@ const inputTemplate = `
 > Source code of this project can be seen [here](https://github.com/Reynaldev/Markie)
 >> Bruh
 >>> Triple blockquote!
+
 ![Preview](https://pngimg.com/uploads/doge_meme/doge_meme_PNG21.png)
 
 Put a Backtick between a text to make an inline code \`This is what it looks like\`
