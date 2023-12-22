@@ -15,6 +15,7 @@ const inputTemplate = `
 Put a Backtick between a text to make an inline code \`This is what it looks like\`
 
 Add 4 spaces or 1 tab in front of a line to make a code block
+
     function helloWorld() {
         console.log(\"This is a code block.\");
     }
