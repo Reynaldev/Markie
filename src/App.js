@@ -17,7 +17,7 @@ Put a Backtick between a text to make an inline code \`This is what it looks lik
 Add 4 spaces or 1 tab in front of a line to make a code block
 
     function helloWorld() {
-        console.log(\"This is a code block.\");
+        console.log("This is a code block.");
     }
 
 You can also make a list by typing a text preceeded by a dash
