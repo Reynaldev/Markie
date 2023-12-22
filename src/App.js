@@ -3,31 +3,30 @@ import Markdown from 'react-markdown';
 // import remarkGfm from 'remark-gfm';
 import './App.css';
 
-const inputTemplate = 
-"# Markie \n\
-=========== \n\
-## The Markdown Editor \n\
-> Source code of this project can be seen [here](https://github.com/Reynaldev/Markie) \n\
->> Bruh \n\
->>> Triple blockquote! \n\n\
-![Preview](https://pngimg.com/uploads/doge_meme/doge_meme_PNG21.png) \n\
-\n\
-Put a Backtick between a text to make an inline code ``This is what it looks like`` \n\
-\n\
-Add 4 spaces or 1 tab in front of a line to make a code block  \n\n\
-    function helloWorld() { \n\
-        console.log(\"This is a code block.\"); \n\
-    } \n\
-\n\
-You can also make a list by typing a text preceeded by a dash \n\
-- First item \n\
-- Second item \n\
-- Third item \n\
-\n\
-*You can make your text italic by wrapping an asterisks between it.* \n\
-\n\
-**Or you can make your text bold by wrapping it in double asterisk** \r\
-";
+const inputTemplate = `
+# Markie
+## The Markdown Editor
+> Source code of this project can be seen [here](https://github.com/Reynaldev/Markie)
+>> Bruh
+>>> Triple blockquote!
+![Preview](https://pngimg.com/uploads/doge_meme/doge_meme_PNG21.png)
+
+Put a Backtick between a text to make an inline code \`This is what it looks like\`
+
+Add 4 spaces or 1 tab in front of a line to make a code block
+    function helloWorld() {
+        console.log(\"This is a code block.\");
+    }
+
+You can also make a list by typing a text preceeded by a dash
+- First item
+- Second item
+- Third item
+
+*You can make your text italic by wrapping an asterisks between it.*
+
+**Or you can make your text bold by wrapping it in double asterisk**
+`;
 
 class App extends React.Component {
   constructor(props) {
