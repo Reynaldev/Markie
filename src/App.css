@@ -6,18 +6,20 @@
 
 #preview {
   color: rgb(200, 200, 200);
+  overflow: visible;
 }
 
 a {
-  color: rgb(100, 100, 100);
+  color: rgb(150, 150, 150);
 }
 
 blockquote {
+  background-color: rgb(50, 50, 50);
+
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
+  padding: 2px 0 2px 40px;
+  border-left: 8px solid rgb(75, 75, 75);
+  border-radius: 4px;
 }
 
 pre {

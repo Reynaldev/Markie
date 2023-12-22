@@ -5,11 +5,14 @@ import './App.css';
 
 const inputTemplate = 
 "# Markie \n\
+=========== \n\
 ## The Markdown Editor \n\
-> Source code of this project can be seen [here](https://github.com/Reynaldev/Markie) \n\n\
+> Source code of this project can be seen [here](https://github.com/Reynaldev/Markie) \n\
+>> Bruh \n\
+>>> Triple blockquote! \n\n\
 ![Preview](https://pngimg.com/uploads/doge_meme/doge_meme_PNG21.png) \n\
 \n\
-Put a Backtick between a text to make an inline code ``This is what it `looks` like`` \n\
+Put a Backtick between a text to make an inline code ``This is what it looks like`` \n\
 \n\
 Add 4 spaces or 1 tab in front of a line to make a code block  \n\n\
     function helloWorld() { \n\
